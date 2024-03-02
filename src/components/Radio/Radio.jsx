@@ -11,10 +11,9 @@ const Radio = () => {
     <>
       <legend>Select an input: {input} </legend>
       <fieldset>
-        {/*Genom att använda samma namn för inputsen togglas den aktiva knappen av
-      automatiskt när man väljer en annan.
-	 
-	  Value är det värdet som kommer att visas inom legend-taggen.
+        {/*Genom att använda samma namn för inputsen togglas den aktiva knappen av automatiskt när man väljer en annan.
+ 
+	   	Value är det värdet som kommer att visas inom legend-taggen.
 	  */}
         <div>
           <input
